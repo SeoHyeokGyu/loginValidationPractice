@@ -58,9 +58,13 @@ class LoginViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         configureUI()
+        configureKeyboard()
     
     }
-    
+    func configureKeyboard() {
+        dismissKeyboardWhenTappedAround()
+        moveViewWhenKeyboardAppearedOrDisappeared()
+    }
     func configureUI() {
         view.backgroundColor = .systemBackground
         

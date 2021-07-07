@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		46C0CDD126956C49003FED37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46C0CDCF26956C49003FED37 /* LaunchScreen.storyboard */; };
 		46C0CDDA26956EDE003FED37 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C0CDD926956EDE003FED37 /* LoginViewController.swift */; };
 		46C0CDDC26956F53003FED37 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C0CDDB26956F53003FED37 /* Coordinator.swift */; };
+		46C0CDDF26959336003FED37 /* UIVIewController-extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C0CDDE26959336003FED37 /* UIVIewController-extention.swift */; };
 		D98E4A41DAFDD43E088314FD /* Pods_loginValidationPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50DEF6EBE73240BE044E3184 /* Pods_loginValidationPractice.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		46C0CDD226956C49003FED37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46C0CDD926956EDE003FED37 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		46C0CDDB26956F53003FED37 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		46C0CDDE26959336003FED37 /* UIVIewController-extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIewController-extention.swift"; sourceTree = "<group>"; };
 		50DEF6EBE73240BE044E3184 /* Pods_loginValidationPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_loginValidationPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E48F85B66E44704AAB03447 /* Pods-loginValidationPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loginValidationPractice.debug.xcconfig"; path = "Target Support Files/Pods-loginValidationPractice/Pods-loginValidationPractice.debug.xcconfig"; sourceTree = "<group>"; };
 		F074EA7070975CCC17E46EDA /* Pods-loginValidationPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loginValidationPractice.release.xcconfig"; path = "Target Support Files/Pods-loginValidationPractice/Pods-loginValidationPractice.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		46C0CDC326956C48003FED37 /* loginValidationPractice */ = {
 			isa = PBXGroup;
 			children = (
+				46C0CDDD26959232003FED37 /* extentions */,
 				46C0CDD826956C92003FED37 /* Controller */,
 				46C0CDC426956C48003FED37 /* AppDelegate.swift */,
 				46C0CDC626956C48003FED37 /* SceneDelegate.swift */,
@@ -82,6 +85,14 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		46C0CDDD26959232003FED37 /* extentions */ = {
+			isa = PBXGroup;
+			children = (
+				46C0CDDE26959336003FED37 /* UIVIewController-extention.swift */,
+			);
+			path = extentions;
+			sourceTree = "<group>";
+		};
 		8907AA211B0A308FFEF5F11C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,7 +107,6 @@
 				8E48F85B66E44704AAB03447 /* Pods-loginValidationPractice.debug.xcconfig */,
 				F074EA7070975CCC17E46EDA /* Pods-loginValidationPractice.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -216,6 +226,7 @@
 				46C0CDDC26956F53003FED37 /* Coordinator.swift in Sources */,
 				46C0CDDA26956EDE003FED37 /* LoginViewController.swift in Sources */,
 				46C0CDC526956C48003FED37 /* AppDelegate.swift in Sources */,
+				46C0CDDF26959336003FED37 /* UIVIewController-extention.swift in Sources */,
 				46C0CDC726956C48003FED37 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
